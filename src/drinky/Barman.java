@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package client;
+package drinky;
 
 /**
  *
  * @author TAUTU
  */
-    public class Barmaid{
-
+public class Barman {
+    
     private int barmaid;
     private String nom;
 
     // Déclarer les constructeur
-    public Barmaid(int Barmaid, String Nom) {
+    public Barman(int Barmaid, String Nom) {
 
         this.barmaid = Barmaid;
         this.nom = Nom;
@@ -39,7 +39,8 @@ package client;
     }
 
     public void affiche() {
-        System.out.println("Id Barmaid : " + barmaid);
+        System.out.println("Id Barman : " + barmaid);
         System.out.println("Son nom : " + nom);
     }
 }
+

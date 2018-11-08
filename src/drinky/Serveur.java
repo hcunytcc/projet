@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package client;
-
+package drinky;
 
 /**
  *
  * @author TAUTU
  */
-public class Serveur {
+public class Serveur {    
+    
     private int id_serveur;
     private String prenom;
     
@@ -42,4 +42,6 @@ public class Serveur {
     }
         
 }
-    
+
+
+

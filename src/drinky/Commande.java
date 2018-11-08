@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package client;
+package drinky;
 
 import java.util.Date;
 
@@ -12,7 +12,7 @@ import java.util.Date;
  * @author TAUTU
  */
 public class Commande {
-
+    
     //Déclarer les variables
     private int id_cde;
     private String total_ttc;
@@ -90,3 +90,6 @@ public class Commande {
     }
   
 }
+
+
+
